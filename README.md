@@ -2,7 +2,7 @@
 
 Configuring and installing PHP+Nginx is a pain. This Docker-compose provides a hassle-free customizable solution to get started in less than 5 minutes.
 
-* This configuration assumes 180.28.0.0/16 subnet is free and not used by any other service installed on the system.
+* This configuration assumes `180.28.0.0/16` subnet is free and not used by any other service installed on the system.
 * Assumes port `433` and port `80` are free to be used by `Nginx` container.
 * This configuration assumes you're running Linux to be able to execute all commands in bin/init.sh successfully.
 * This configuration assumes you've already installed Docker and Docker-Compose.
