@@ -1,4 +1,4 @@
-#php-fpm-nginx-docker-compose
+# php-fpm-nginx-docker-compose
 
 Configuring and installing PHP+Nginx is a pain. This Docker-compose provides a hassle-free customizable solution to get started in less than 5 minutes.
 
