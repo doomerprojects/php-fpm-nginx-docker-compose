@@ -1,0 +1,5 @@
+#log files
+/logs
+/sourcefiles/www
+
+.DS_Store
