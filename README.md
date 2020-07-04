@@ -17,10 +17,14 @@ Configuring and installing PHP+Nginx is a pain. This Docker-compose provides a h
 
 If you're running Ubuntu, install Docker and Docker-Compose with:
 
-`$ apt-get install docker.io docker-compose`
+```
+$ apt-get install docker.io docker-compose
+```
 
 Once you've cloned this git repository, fire up the installation with:
 
-`$ sh bin/init.sh`
+```
+$ sh bin/init.sh
+```
 
 Suggestions for improvements are welcome.
