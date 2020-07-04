@@ -11,16 +11,16 @@ Configuring and installing PHP+Nginx is a pain. This Docker-compose provides a h
 * Nginx configuration files are placed in `sourcefiles/nginx` directory.
 * Nginx access logs get stored to `logs/nginx` directory.
 * Certain PHP extensions are installed by the configuration according to `Dockerfile-www.dockerfile` to ensure compatibility for common-use applications.
-* Environment variables for `docker-compose` configuration is stored in.
-* Environment variables for PHP container are stored in www.env.
+* Environment variables for `docker-compose` configuration is stored in `.env`.
+* Environment variables for PHP container are stored in `www.env`.
 * Change your Nginx domain name configuration via file `sourcefiles/nginx/conf.d/app.conf`.
 
 If you're running Ubuntu, install Docker and Docker-Compose with:
 
-$ apt-get install docker.io docker-compose
+`$ apt-get install docker.io docker-compose`
 
 Once you've cloned this git repository, fire up the installation with:
 
-$ sh bin/init.sh
+`$ sh bin/init.sh`
 
 Suggestions for improvements are welcome.
