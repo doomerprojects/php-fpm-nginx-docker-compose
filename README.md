@@ -4,7 +4,7 @@ Configuring and installing PHP+Nginx is a pain. This Docker-compose provides a h
 
 * This configuration assumes `180.28.0.0/16` subnet is free and not used by any other service installed on the system.
 * Assumes port `433` and port `80` are free to be used by `Nginx` container.
-* This configuration assumes you're running Linux to be able to execute all commands in bin/init.sh successfully.
+* This configuration assumes you're running Linux to be able to execute all commands in `bin/init.sh` successfully.
 * This configuration assumes you've already installed Docker and Docker-Compose.
 * All files in `sourcefiles/www` directory should be owned by user and group `www`. This is where your PHP app will live.
 * PHP ini overrides are placed in `sourcefiles/www-php-fpm` directory.
